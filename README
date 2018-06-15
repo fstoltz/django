@@ -1,1 +1,12 @@
-Creating a README
+Simple site with basic functionality!
+
+Functionality this project will offer:  
+Front-end
+- A navigation menu that follows all pages
+- Choose desired language when landing on the website
+- Each menu item is associated with an article link
+
+Back-end
+- Able to edit the name & link of menu items
+- WYSIWYG editor for articles
+- Publish / Unpublish functionality for articles and navigation menu items
