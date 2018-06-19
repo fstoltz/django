@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% block head %}
+	<title>Website</title>
+	{% endblock %}
+</head>
+<body>
+
+	{% for item in menu_items_list %}
+		<a href="/{{ item.name|lower }}">{{ item.name }}</a>
+	{% endfor %}
+
+	
+
+
+	{% block content %}
+	<!-- This is where each article will fill its contents --> 
+	{% endblock %}
+
+</body>
+</html>
